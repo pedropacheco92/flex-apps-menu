@@ -1,0 +1,26 @@
+{
+  "name": "flex-apps-menu",
+  "version": "1.0.0",
+  "description": "Header menu for displaying apps",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "npm run build:tsc && npm run build:css",
+    "build:tsc": "./node_modules/.bin/tsc --build",
+    "build:css": "./node_modules/.bin/uglifycss ./src/style.css > ./dist/style.min.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flex-xlab/flex-apps-menu.git"
+  },
+  "keywords": [],
+  "author": "xLab",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/flex-xlab/flex-apps-menu/issues"
+  },
+  "homepage": "https://github.com/flex-xlab/flex-apps-menu#readme",
+  "devDependencies": {
+    "typescript": "^3.5.3",
+    "uglifycss": "0.0.29"
+  }
+}
