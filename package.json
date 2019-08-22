@@ -1,6 +1,6 @@
 {
   "name": "flex-apps-menu",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Header menu for displaying apps",
   "main": "dist/index.js",
   "scripts": {
